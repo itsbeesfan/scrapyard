@@ -1,3 +1,7 @@
+# Sitio Web de Scrapyard Bogotá
+This is a website for Hack Club's hackathon "Scrapyard". It was adapted for Scrapyard Bogotá, and translated to Spanish.
+
+
 # Scrapyard
 
 Welcome to [**Scrapyard**](https://scrapyard.hackclub.com), Hack Club's winter 2025 worldwide hackathon!
