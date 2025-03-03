@@ -5,16 +5,15 @@ import dynamic from 'next/dynamic'
 
 // TODO: Change this schedule to your own!
 const schedule = [
-  { time: '7:30 AM', event: 'Abren puertas' },
-  { time: '8:00 AM', event: 'Ceremonia de iniciación' },
-  { time: '8:30 AM', event: '¡Empieza a trabajar en tu projecto!' },
+  { time: '8:00 AM', event: 'Abren puertas' },
+  { time: '8:30 AM', event: 'Ceremonia de iniciación' },
+  { time: '9:00 AM', event: '¡Empieza a trabajar en tu projecto!' },
   { time: '12:00 PM', event: 'Almuerzo' },
-  { time: '2:00 PM', event: 'Taller 1' },
-  { time: '4:00 PM', event: 'Actividad 1' },
-  { time: '4:00 PM', event: 'Taller 2' },
-  { time: '7:30 PM', event: 'Cena' },
-  { time: '8:30 PM', event: '¡Demos!' },
-  { time: '9:00 PM', event: 'Ceremonia de cierre' },
+  { time: '1:00 PM', event: 'Taller 1' },
+  { time: '3:00 PM', event: 'Taller 2' },
+  { time: '3:30 PM', event: 'Snack' },
+  { time: '4:30 PM', event: '¡Demos!' },
+  { time: '5:00 PM', event: 'Ceremonia de cierre' },
 ]
 
 const Map = dynamic(() => import('../components/Map'), { ssr: false })
@@ -439,7 +438,7 @@ export default function ExampleCity() {
         >
           {/* TODO: Change [EXAMPLECITY] to your event's city */}
           {/* TODO: Change [DURATION] to your event's duration (12hour, 24hour, 2-day) */}
-          Scrapyard Bogotá es un evento de 12 horas - ¡AQUÍ ESTÁ EL HORARIO
+          Scrapyard Bogotá es un evento de 9 horas - ¡AQUÍ ESTÁ EL HORARIO
           APROXIMADO!
         </Heading>
         <Box
